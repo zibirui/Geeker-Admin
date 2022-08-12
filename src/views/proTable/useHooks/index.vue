@@ -169,7 +169,6 @@ const { tableData, pageable, searchParam, searchInitParam, getTableList, search,
 
 // 数据多选 hooks
 const { isSelected, selectedListIds, selectionChange, getRowKeys } = useSelection();
-
 // 页面按钮权限
 const { BUTTONS } = useAuthButtons();
 
@@ -235,4 +234,7 @@ const openDrawer = (title: string, rowData: Partial<User.ResUserList> = { avatar
 	};
 	drawerRef.value!.acceptParams(params);
 };
+
+
+
 </script>
