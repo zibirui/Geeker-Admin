@@ -234,6 +234,4 @@ const openDrawer = (title: string, rowData: Partial<User.ResUserList> = { avatar
 	};
 	drawerRef.value!.acceptParams(params);
 };
-
-
 </script>
